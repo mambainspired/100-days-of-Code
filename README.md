@@ -17,7 +17,7 @@ public void reverse() {
         }
         prev = current;
         current = next;
-        // Step head from moving beyond the tail
+        // Stop head from moving beyond the tail
         if (next != null) {
             head = next;
         }
