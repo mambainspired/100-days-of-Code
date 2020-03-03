@@ -2,7 +2,11 @@
 Keeping myself honest. Talk is cheap. 
 
 ## Day 6 - 2 March 2020
-Hectic day at work and then family time. Got the getKthNodeFromTheEnd implementation modified without using the size class vairbale. 
+Hectic day at work and then family time. 
+
+1) Read about "Illusion of Competence". How you can study something and not forget. Create (good) vs. Understand (bad)
+
+2) Got the getKthNodeFromTheEnd implementation modified without using the size class vairbale. 
 ```java
 public int getKthNodeFromTheEnd(int k) throws Exception {
     if (k > 0) {
