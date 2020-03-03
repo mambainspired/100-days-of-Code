@@ -1,6 +1,28 @@
 # 100-days-of-Code
 Keeping myself honest. Talk is cheap. 
 
+## Day 6 - 2 March 2020
+Hectic day at work and then family time. Got the getKthNodeFromTheEnd implementation modified without using the size class vairbale. 
+```java
+public int getKthNodeFromTheEnd(int k) throws Exception {
+    if (k > 0) {
+        var firstPointer = head;
+        var nextPointer = head;
+        for (int i = 0; i < k - 1; i++) {
+            nextPointer = nextPointer.next;
+            if (nextPointer == null) {
+                throw new IllegalArgumentException("k is too big");
+            }
+        }
+        while (nextPointer.next != null) {
+            firstPointer = firstPointer.next;
+            nextPointer = nextPointer.next;
+        }
+        return firstPointer.value;
+    } else throw new IllegalArgumentException("k must be greater than 0");
+ }
+```
+
 ## Day 5 - 1 March 2020
 Get k-th node from the end of a singly linked list. Need to write a solution which is unaware of the size of the linked list.
 ```java
