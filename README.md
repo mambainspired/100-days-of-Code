@@ -7,7 +7,7 @@ How can you find the middle element of a linked list in a **single pass**?
 **Sol 1** Loop through the list and keep adding elements to an ArrayList. Read the middle element in O(1) time.
 Time complexity: O(n), Space complexity: Poor, as we are creating a new data structure
 
-**Sol 2** Use the getKthNodeFromTheEnd method, keep incrementing k until head == tail. But for even number of elements, this won't work as the head and tail will not meet. And **it is not single pass**.
+**Sol 2** Use the getKthNodeFromTheEnd method (Day 6), keep incrementing k until head == tail. But for even number of elements, this won't work as the head and tail will not meet. And **it is not single pass**.
 
 Will think a bit more on this. 
 
