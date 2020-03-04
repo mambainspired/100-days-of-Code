@@ -1,6 +1,19 @@
 # 100-days-of-Code
 Keeping myself honest. Talk is cheap. 
 
+## Day 8 - 4 March 2020
+How can you find the middle element of a linked list in a **single pass**? 
+**Sol 1** Loop through the list and keep adding elements to an ArrayList. Read the middle element in O(1) time.
+Time complexity: O(n), Space complexity: Poor, as we are creating a new data structure
+
+**Sol 2** Use the getKthNodeFromTheEnd method, keep incrementing k until head == tail. But for even number of elements, this won't work as the head and tail will not meet. And **it is not single pass**.
+
+Will think a bit more on this. 
+
+
+## Day 7 - 3 March 2020
+Sick kid and traveling wife. 
+
 ## Day 6 - 2 March 2020
 Hectic day at work and then family time. 
 
