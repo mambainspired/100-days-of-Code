@@ -3,6 +3,7 @@ Keeping myself honest. Talk is cheap.
 
 ## Day 8 - 4 March 2020
 How can you find the middle element of a linked list in a **single pass**? 
+
 **Sol 1** Loop through the list and keep adding elements to an ArrayList. Read the middle element in O(1) time.
 Time complexity: O(n), Space complexity: Poor, as we are creating a new data structure
 
