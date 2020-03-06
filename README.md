@@ -1,7 +1,7 @@
 # 100-days-of-Code
 Keeping myself honest. Talk is cheap.
 
-## Day 9 - 6 March 2020
+## Day 10 - 6 March 2020
 I took hints and felt really $#!tty about it. The goal of this relearning is to learn **how to solve** and not to find out the solution to a particular problem. So to make myself feel a little less $#!tty, I didn't absolutely look at the code and coded it on a piece of paper. Then I wrote the code in IntelliJ and with the exception on on small edge case testing, it was flawless. 
 ```Java
 // We don't know if the list has an even or odd number of elements
@@ -35,8 +35,8 @@ public void printMiddle() {
 }
 ```
 
-## [NO WORK] Day 8 - 5 March 2020
-I had to take hints on this. Tried a little bit. But couldn't finish it. 
+## [NO WORK] Day 9 - 5 March 2020
+I had to take hints on the problem from Day 8. Tried a little bit. But couldn't finish it. 
 
 ## Day 8 - 4 March 2020
 How can you find the middle element of a **singly** linked list in a **single pass**? 
