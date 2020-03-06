@@ -1,5 +1,42 @@
 # 100-days-of-Code
-Keeping myself honest. Talk is cheap. 
+Keeping myself honest. Talk is cheap.
+
+## Day 9 - 6 March 2020
+I took hints and felt really $#!tty about it. The goal of this relearning is to learn **how to solve** and not to find out the solution to a particular problem. So to make myself feel a little less $#!tty, I didn't absolutely look at the code and coded it on a piece of paper. Then I wrote the code in IntelliJ and with the exception on on small edge case testing, it was flawless. 
+```Java
+// We don't know if the list has an even or odd number of elements
+public void printMiddle() {
+    if (head == null)
+        System.out.println(-1);
+    else if (head == tail)
+        System.out.println(head.value);
+    else {
+        int nodeCount = 0;
+        var current = head;
+        var midPoint = current;
+        while (current != null) {
+            for (int i = 0; i < 2; i++) {
+                if (current != null) {
+                    current = current.next;
+                    nodeCount++;
+                    // MISTAKE was here. We don't need to increment the midPoint if nodeCount is 1
+                    if (nodeCount > 1 && nodeCount % 2 != 0) {
+                        midPoint = midPoint.next;
+                    }
+                }
+            }
+        }
+        System.out.println(midPoint.value);
+        if (nodeCount % 2 == 0) {
+            // Even number of elements
+            System.out.println(midPoint.next.value);
+        }
+    }
+}
+```
+
+## [NO WORK] Day 8 - 5 March 2020
+I had to take hints on this. Tried a little bit. But couldn't finish it. 
 
 ## Day 8 - 4 March 2020
 How can you find the middle element of a **singly** linked list in a **single pass**? 
@@ -12,7 +49,7 @@ Time complexity: O(n), Space complexity: Poor, as we are creating a new data str
 Will think a bit more on this. 
 
 
-## Day 7 - 3 March 2020
+## [NO WORK] Day 7 - 3 March 2020
 Sick kid and traveling wife. 
 
 ## Day 6 - 2 March 2020
