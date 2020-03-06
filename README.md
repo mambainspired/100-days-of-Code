@@ -106,6 +106,7 @@ Finally figured out how to reverse a LinkedList in place. Took me a crazy amount
 public void reverse() {
     var current = head;
     var prev = head;
+    tail = head;
     while (current != null) {
         var next = current.next;
         current.next = prev;
