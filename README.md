@@ -1,6 +1,37 @@
 # 100-days-of-Code
 Keeping myself honest. Talk is cheap.
 
+## Day 12 - 8 March 2020
+Wrote a function to check if a LinkedList has a loop. This is using the tortoise/hare technique. A moves to the next element where B moves to the next to the next element. When they meet (A == B), you return true. If there is no loop, there will be a NullPointerException and we return false. 
+
+```Java
+public boolean hasLoop() {
+    if (head == null || head == tail)
+        return false;
+    else {
+        try {
+            var A = head;
+            var B = head;
+            while (A != null) {
+                A = A.next;
+                B = B.next.next;
+
+                if (A == B)
+                    return true;
+            }
+            return false;
+        }
+        catch(NullPointerException ex) {
+            return false;
+        }
+
+    }
+}
+```
+
+## [NO WORK] Day 11 - 7 March 2020
+Busy Saturday with the family
+
 ## Day 10 - 6 March 2020
 I took hints and felt really $#!tty about it. The goal of this relearning is to learn **how to solve** and not to find out the solution to a particular problem. So to make myself feel a little less $#!tty, I didn't absolutely look at the code and coded it on a piece of paper. Then I wrote the code in IntelliJ and with the exception on on small edge case testing, it was flawless. 
 ```Java
