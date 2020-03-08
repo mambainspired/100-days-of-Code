@@ -1,5 +1,6 @@
 # 100-days-of-Code
 Keeping myself honest. Talk is cheap.
+No work days = 3
 
 ## Day 12 - 8 March 2020
 Wrote a function to check if a LinkedList has a loop. This is using the tortoise/hare technique. A moves to the next element where B moves to the next to the next element. When they meet (A == B), you return true. If there is no loop, there will be a NullPointerException and we return false. 
