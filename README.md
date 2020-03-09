@@ -2,7 +2,7 @@
 Keeping myself honest. Talk is cheap.
 No work days = 3
 
-## Day 12 - 9 March 2020
+## Day 13 - 9 March 2020
 I learned the difference between StringBuffer and String in the process of writing a "Hello Stacks" class. Using a StringBuffer is more efficient than using a String because in Java an object of class String is immutable. So every append is essentially like creating a new String object. 
 
 https://javarevisited.blogspot.com/2011/07/string-vs-stringbuffer-vs-stringbuilder.html
