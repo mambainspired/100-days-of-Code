@@ -16,7 +16,7 @@ public class ExpressionChecker {
      */
 
     public boolean isValid(String input) {
-        Stack<Character> S = new Stack();
+        Stack<Character> S = new Stack<>();
         Boolean cont = true;
         for (Character c : input.toCharArray()) {
             if (cont) {
@@ -27,17 +27,30 @@ public class ExpressionChecker {
                         S.push(c);
                         break;
                     case ')':
-                        if (S.pop() != '(') {
+                        if (!S.isEmpty()) {
+                            if (S.pop() != '(') {
+                                cont = false;
+                            }
+                        } else {
+                            S.push(c);
                             cont = false;
                         }
                         break;
                     case '}':
-                        if (S.pop() != '{') {
+                        if (!S.empty()) {
+                            if (S.pop() != '{') {
+                                cont = false;
+                            }
+                        } else {
                             cont = false;
                         }
                         break;
                     case ']':
-                        if (S.pop() != '[') {
+                        if (!S.empty()) {
+                            if (S.pop() != '[') {
+                                cont = false;
+                            }
+                        } else {
                             cont = false;
                         }
                         break;
