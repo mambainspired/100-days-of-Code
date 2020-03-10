@@ -2,6 +2,58 @@
 Keeping myself honest. Talk is cheap.
 No work days = 3
 
+## Day 14 - 10 March 2020
+I tried to write another simple (but common) stack problem. Checking if an expression is valid. While this isn't by any means a complete check, but I am happy I was able to write it 75% accurately on Google Docs and the algoritm was correct in the first try. This implementation is a much cleaner than my earlier implementation of this. 
+```Java
+import java.util.Stack;
+
+public class ExpressionChecker {
+    /**
+     * Given an expression like [(1 + 2) * 3 + (9 - 8)] or )()(
+     * this function tells whether it is a valid expression or not.
+     * First one is valid, second one isn't.
+     */
+
+    public boolean isValid(String input) {
+        Stack<Character> S = new Stack();
+        Boolean cont = true;
+        for (Character c : input.toCharArray()) {
+            if (cont) {
+                switch (c) {
+                    case '(':
+                    case '{':
+                    case '[':
+                        S.push(c);
+                        break;
+                    case ')':
+                        if (S.pop() != '(') {
+                            cont = false;
+                        }
+                        break;
+                    case '}':
+                        if (S.pop() != '{') {
+                            cont = false;
+                        }
+                        break;
+                    case ']':
+                        if (S.pop() != '[') {
+                            cont = false;
+                        }
+                        break;
+                    default:
+                        break;
+                }
+            }
+        }
+        if (S.isEmpty()) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+}
+```
+
 ## Day 13 - 9 March 2020
 I learned the difference between StringBuffer and String in the process of writing a "Hello Stacks" class. Using a StringBuffer is more efficient than using a String because in Java an object of class String is immutable. So every append is essentially like creating a new String object. 
 
