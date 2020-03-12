@@ -3,7 +3,7 @@ Keeping myself honest. Talk is cheap.
 
 No work days = 3
 
-## Day 16 - 12 Mar 2020 [6:42 am, hopefully more programmign today]
+## Day 16 - 12 Mar 2020 [6:42 am, hopefully more programming today]
 1-  Implement two stacks in one array. 
 
 Support these operations:
