@@ -77,6 +77,8 @@ public class TwoStacks {
 
 
 ## Day 15 - 11 Mar 2020
+Read about GraphQL and difference between GraphQL and REST. https://medium.com/@back4apps/graphql-vs-rest-62a3d6c2021d  
+
 Continued working through the Algorithms & DS course. Wrote a stack implementation using an array. 
 ```Java
 @SuppressWarnings("SpellCheckingInspection")
