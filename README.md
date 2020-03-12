@@ -3,7 +3,7 @@ Keeping myself honest. Talk is cheap.
 
 No work days = 3
 
-## Day 16 - 12 Mar 2020 [6:42 am, hopefully more programming today]
+## Day 16 - 12 Mar 2020
 1-  Implement two stacks in one array. 
 
 Support these operations:
@@ -66,12 +66,52 @@ public class TwoStacks {
         }
     }
 
+    public Boolean isEmpty1() {
+        if (count1 == 0)
+            return true;
+        else
+            return false;
+    }
+
+    public Boolean isEmpty2() {
+        if (count2 == 0)
+            return true;
+        else
+            return false;
+    }
+
+    public int pop1() throws Exception {
+        if (count1 == 0) {
+            throw new Exception("Stack is empty");
+        }
+        else {
+            int popped_element = stack[count1 - 1];
+            count1--;
+            for (int i = 0; i < count2; i++) {
+                stack[count1 + i] = stack[count1 + i + 1];
+            }
+            for(int i = count1 + count2; i < stack.length; i++) {
+                stack[i] = 0;
+            }
+            return popped_element;
+        }
+    }
+
+    public int pop2() throws Exception  {
+        if (count2 == 0) {
+            throw new Exception("Stack is empty");
+        }
+        int popped_element = stack[count1 + count2 - 1];
+        stack[count1 + count2 - 1] = 0;
+        return popped_element;
+    }
+    
     public void printStack() {
+        System.out.println("Stack state ...");
         for (int i = 0; i < stack.length; i++) {
             System.out.println(stack[i]);
         }
     }
-
 }
 ```
 
