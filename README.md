@@ -3,6 +3,155 @@ Keeping myself honest. Talk is cheap.
 
 No work days = 3
 
+## Day 16 - 12 Mar 2020 [6:42 am, hopefully more programmign today]
+1-  Implement two stacks in one array. 
+Support these operations:  
+push1() // to push in the first stack
+push2() // to push in the second stack
+pop1()
+pop2()
+isEmpty1()
+isEmpty2()
+isFull1()
+isFull2()
+Make sure your implementation is space efficient. (hint: do not allocate the same amount of space by dividing the array in half.) 
+
+```Java 
+// WORK IN PROGRESS
+public class TwoStacks {
+    int[] stack = new int[10];
+    int count1 = 0;
+    int count2 = 0;
+
+    public void push1(int element) {
+        if (count1 + count2 == 10) {
+            throw new StackOverflowError("Stack is full");
+        }
+        else if (count1 + count2 == 0) {
+            stack[0] = element;
+            count1++;
+        }
+        else {
+            // Shift the array
+            int[] secondStack = Arrays.copyOfRange(stack, count1, count1 + count2);
+            stack[count1] = element;
+            count1++;
+            for (int i = 0; i < count2; i++) {
+                stack[count1 + i] = secondStack[i];
+            }
+        }
+    }
+
+    public void push2(int element) {
+        if (count1 + count2 == 10) {
+            throw new StackOverflowError("Stack is full");
+        }
+        else if (count1 + count2 == 0) {
+            stack[0] = element;
+            count2++;
+        }
+        else {
+            stack[count1 + count2] = element;
+            count2++;
+        }
+    }
+
+    public void printStack() {
+        for (int i = 0; i < stack.length; i++) {
+            System.out.println(stack[i]);
+        }
+    }
+
+}
+```
+
+
+## Day 15 - 11 Mar 2020
+Continued working through the Algorithms & DS course. Wrote a stack implementation using an array. 
+```Java
+@SuppressWarnings("SpellCheckingInspection")
+public class Stack {
+    private int[] stack = new int[5];
+    private int count = 0;
+
+    public void push(int element) {
+        if (count < stack.length) {
+            stack[count] = element;
+        }
+        else {
+            // We need to create a new array
+            int[] newArray = new int[stack.length + 1];
+            // TODO: Refactor into an arrayCopy function
+            for (int i = 0; i < stack.length; i++) {
+               newArray[i] = stack[i];
+            }
+            newArray[stack.length] = element;
+            stack = newArray;
+        }
+        count++;
+    }
+
+    public int pop() {
+        return stack[count - 1];
+    }
+
+
+
+    // Old inefficient implementation
+    // public void push(int element) {
+    //
+    //     if (element == 0) {
+    //         throw new IllegalArgumentException("Cannot push 0 to stack");
+    //     }
+    //     Boolean itemAdded = false;
+    //     // Couldn’t remember how to check the size of an array! length() or size(). It’s length.
+    //     for (int i = 0; i < stack.length; i++) {
+    //         if (stack[i] == 0) {
+    //             stack[i] = element;
+    //             itemAdded = true;
+    //             break;
+    //         }
+    //     }
+    //     if (itemAdded == false) {
+    //         // We need to create a new array
+    //         int[] newArray = new int[stack.length + 1];
+    //         // TODO: Refactor into an arrayCopy function
+    //         for (int i = 0; i < stack.length; i++) {
+    //            newArray[i] = stack[i];
+    //         }
+    //         newArray[stack.length] = element;
+    //         stack = newArray;
+    //     }
+    // }
+    //
+    // public int pop() {
+    //     int last_index = stack.length - 1;
+    //     // Partially filled "stack
+    //     if (stack[last_index] != 0) {
+    //         return stack[last_index];
+    //     } else {
+    //         int i = last_index;
+    //         while (i > 0) {
+    //             if (stack[i] == 0)
+    //                 i--;
+    //             else
+    //                 break;
+    //         }
+    //         return stack[i];
+    //     }
+    // }
+
+    public void printStack() {
+        for (int i = 0; i < stack.length; i++) {
+            System.out.println(stack[i]);
+        }
+    }
+}
+
+
+```
+
+
 ## Day 14 - 10 March 2020
 I tried to write another simple (but common) stack problem. Checking if an expression is valid. While this isn't by any means a complete check, but I am happy I was able to write it 75% accurately on Google Docs and the algoritm was correct in the first try. This implementation is a much cleaner than my earlier implementation of this. 
 ```Java
