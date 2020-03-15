@@ -1,7 +1,13 @@
 # 100-days-of-Code
 Keeping myself honest. Talk is cheap.
 
-No work days = 3
+No work days = 4
+
+## [NO WORK] Day 18 - 14 Mar 2020
+
+
+## Day 17 - 13 Mar 2020
+LeetCode Min Stack - https://leetcode.com/problems/min-stack/
 
 ## Day 16 - 12 Mar 2020
 1-  Implement two stacks in one array. 
