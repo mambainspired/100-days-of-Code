@@ -3,8 +3,77 @@ Keeping myself honest. Talk is cheap.
 
 No work days = 4
 
-## [NO WORK] Day 18 - 14 Mar 2020
+## Day 19 - 15 Mar 2020
 
+Chaotic day in middle of the COVID 19 pandemic. Was able to fix a bug with the Leet Code submission from Day 17. 
+
+```Java
+class MinStack {
+    
+    private int minElement = 0;    
+    
+    private class Node {
+        private int item;
+        private int min;
+        
+        public Node(int i, int min) {
+            this.item = i;
+            this.min = min;
+        }
+    }
+    
+    private Stack<Node> stack = new Stack<>();
+
+    /** initialize your data structure here. */
+    public MinStack() {
+       // ??       
+    }
+    
+    public void push(int x) {
+        if (stack.empty()) {
+            minElement = x;          
+        } else {
+            var node = stack.peek();
+            if (x < node.min) {
+                minElement = x;
+            }
+        }
+        var node = new Node(x, minElement);
+        stack.push(node);
+    }
+    
+    public void pop() {
+        stack.pop();
+        if (!stack.empty())
+        {
+            var node = stack.peek();
+            minElement = node.min;
+        }        
+    }
+    
+    public int top() {
+        var node = stack.peek(); 
+        return node.item;
+    }
+    
+    public int getMin() {
+        var node = stack.peek();
+        return node.min;
+    }
+}
+
+/**
+ * Your MinStack object will be instantiated and called as such:
+ * MinStack obj = new MinStack();
+ * obj.push(x);
+ * obj.pop();
+ * int param_3 = obj.top();
+ * int param_4 = obj.getMin();
+ */
+```
+
+
+## [NO WORK] Day 18 - 14 Mar 2020
 
 ## Day 17 - 13 Mar 2020
 LeetCode Min Stack - https://leetcode.com/problems/min-stack/
