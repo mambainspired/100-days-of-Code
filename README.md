@@ -3,6 +3,9 @@ Keeping myself honest. Talk is cheap.
 
 No work days = 4
 
+## Day 21 - 17 Mar 2020
+Finished 22% of the Java practice. Learnt interesting things (from what I thought would be a boring exercise) like the Scanner class. Got stuck at how to read a full sentence from stdin and learnt about the nextLine() method. 
+
 ## Day 20 - 16 Mar 2020
 Going through the HackerRank Java practice so that I don't get stuck on trivial syntactic stuff. https://www.hackerrank.com/domains/java
 
