@@ -3,7 +3,7 @@ Keeping myself honest. Talk is cheap.
 
 No work days = 4
 
-## Day 202 - 16 Mar 2020
+## Day 20 - 16 Mar 2020
 Going through the HackerRank Java practice so that I don't get stuck on trivial syntactic stuff. https://www.hackerrank.com/domains/java
 
 ## Day 19 - 15 Mar 2020
