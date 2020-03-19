@@ -3,6 +3,9 @@ Keeping myself honest. Talk is cheap.
 
 No work days = 4
 
+## Day 22 - 18 Mar 2020
+Switching things a little bit. Not sure if this is the best thing I can do at the moment but any type of programming is good. So I have taken the challenge to finish the FreeCodeCamp Front-End Library Certification by the end of this month. So I spent the day revising React. WFH is taking its toll but I will keep doing what I am doing. 
+
 ## Day 21 - 17 Mar 2020
 Finished 22% of the Java practice. Learnt interesting things (from what I thought would be a boring exercise) like the Scanner class. Got stuck at how to read a full sentence from stdin and learnt about the nextLine() method. 
 
