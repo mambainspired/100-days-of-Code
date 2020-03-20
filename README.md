@@ -3,6 +3,9 @@ Keeping myself honest. Talk is cheap.
 
 No work days = 4
 
+## Day 23 - 19 Mar 2020
+Working on completing my FreeCodeCamp Front-End Library Certfication. 
+
 ## Day 22 - 18 Mar 2020
 Switching things a little bit. Not sure if this is the best thing I can do at the moment but any type of programming is good. So I have taken the challenge to finish the FreeCodeCamp Front-End Library Certification by the end of this month. So I spent the day revising React. WFH is taking its toll but I will keep doing what I am doing. 
 
