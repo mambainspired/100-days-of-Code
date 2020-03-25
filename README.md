@@ -3,7 +3,7 @@ Keeping myself honest. Talk is cheap.
 
 No work days = 4
 
-## Day 24 - Day 28 (20 Mar to 24 Mar)
+## Day 24 - Day 30 (20 Mar to 26 Mar)
 Going through a basic React tutorial by Bob Ziroll on Scrimba to finish the front-end libraries certification. Goal is to finish this by end of the month. 
 
 ## Day 23 - 19 Mar 2020
