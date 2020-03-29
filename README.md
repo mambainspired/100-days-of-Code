@@ -3,6 +3,9 @@ Keeping myself honest. Talk is cheap.
 
 No work days = 4
 
+## Day 31 - Day 35 (27 Mar - 31 Mar)
+Crazy behind in my attempt to finish the FCC FE certificate. Still working on it. 
+
 ## Day 24 - Day 30 (20 Mar to 26 Mar)
 Going through a basic React tutorial by Bob Ziroll on Scrimba to finish the front-end libraries certification. Goal is to finish this by end of the month. 
 
