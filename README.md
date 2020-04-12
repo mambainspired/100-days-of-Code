@@ -1,7 +1,12 @@
 # 100-days-of-Code
 Keeping myself honest. Talk is cheap.
 
-No work days = 4
+No work days = 7 (14%)
+
+## [NO WORK] Day 45- Day 46
+
+## Day 36 - Day 44 (01 Apr - 08 Apr)
+I did it! I have been like the guy in the picture below. Breaking the pattern, I have earned my Freecodecamp Front-end Libraries Certrificate. 
 
 ## Day 31 - Day 35 (27 Mar - 31 Mar)
 Crazy behind in my attempt to finish the FCC FE certificate. Still working on it. 
