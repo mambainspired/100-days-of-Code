@@ -1,9 +1,12 @@
 # 100-days-of-Code
 Keeping myself honest. Talk is cheap.
 
-No work days = 7 (14%)
+No work days = 8
 
-## [NO WORK] Day 45- Day 46
+## DAY 48 - 12 Apr 2020
+Worked on the React Bootcamp on Scrimba
+
+## [NO WORK] Day 45- Day 47
 
 ## Day 36 - Day 44 (01 Apr - 08 Apr)
 I did it! I have been like the guy in the picture below. Breaking the pattern, I have earned my Freecodecamp Front-end Libraries Certrificate. 
