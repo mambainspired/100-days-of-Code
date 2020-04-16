@@ -1,7 +1,7 @@
 # 100-days-of-Code
 Keeping myself honest. Talk is cheap.
 
-No work days = 8
+No work days = 7
 
 ## Da 49 - 52 Day (13 Apr - 16 Apr)
 Worked on the first module of React Bootcamp on Scrimba. Now I understand some core JavaScript concepts like Static Methods, Lexical Scoping and Scope Chain. Also understand why people do ``` var that = this ```. 
