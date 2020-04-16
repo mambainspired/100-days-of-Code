@@ -3,6 +3,14 @@ Keeping myself honest. Talk is cheap.
 
 No work days = 8
 
+## Da 49 - 52 Day (13 Apr - 16 Apr)
+Worked on the first module of React Bootcamp on Scrimba. Now I understand some core JavaScript concepts like Static Methods, Lexical Scoping and Scope Chain. Also understand why people do ``` var that = this ```. 
+
+As far as React goes,
+- If I use arrow functions, I don't need to bind event handlers in the contructor
+- defaultProps, PropTypes
+
+
 ## DAY 48 - 12 Apr 2020
 Worked on the React Bootcamp on Scrimba
 
