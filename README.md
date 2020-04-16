@@ -7,7 +7,7 @@ No work days = 8
 Worked on the first module of React Bootcamp on Scrimba. Now I understand some core JavaScript concepts like Static Methods, Lexical Scoping and Scope Chain. Also understand why people do ``` var that = this ```. 
 
 As far as React goes,
-- If I use arrow functions, I don't need to bind event handlers in the contructor
+- If I use arrow functions, I don't need to bind event handlers in the constructor
 - defaultProps, PropTypes
 
 
