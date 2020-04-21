@@ -2,6 +2,11 @@
 Keeping myself honest. Talk is cheap.
 
 No work days = 9
+CTCI - Cracking the Coding Interview
+Algo & DS - Course by Mosh H. and practice on LeetCode and Codewars
+
+## Day 54 - 21 Apr 2020
+Working through the Bit Manipulation chapter of the CTCI book.
 
 ## Day 53 - 20 Apr 2020
 Cracking the Coding Interview - studied chapter on Technical Questions - I didn't know what Bit Vectors were until now :( 
