@@ -1,9 +1,17 @@
 # 100-days-of-Code
 Keeping myself honest. Talk is cheap.
 
-No work days = 7
+No work days = 9
 
-## Da 49 - 52 Day (13 Apr - 16 Apr)
+## Day 53 (Apr 20)
+Cracking the Coding Interview - studied chapter on Technical Questions - I didn't know what Bit Vectors were until now :( 
+
+## [NO WORK] Day 51 - 52
+
+## Day 50 (Apr 17)
+Started my journey at Corewars. Solved only two problems
+
+## Day 49 - 52 Day (13 Apr - 16 Apr)
 Worked on the first module of React Bootcamp on Scrimba. Now I understand some core JavaScript concepts like Static Methods, Lexical Scoping and Scope Chain. Also understand why people do ``` var that = this ```. 
 
 As far as React goes, I understand:
