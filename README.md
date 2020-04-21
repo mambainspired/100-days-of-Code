@@ -3,7 +3,7 @@ Keeping myself honest. Talk is cheap.
 
 No work days = 9
 
-## Day 53 (Apr 20)
+## Day 53 - 20 Apr 2020
 Cracking the Coding Interview - studied chapter on Technical Questions - I didn't know what Bit Vectors were until now :( 
 
 ## [NO WORK] Day 51 - 52
