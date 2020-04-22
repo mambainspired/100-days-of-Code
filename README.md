@@ -7,7 +7,8 @@ CTCI - Cracking the Coding Interview
 
 
 ## Day 54 - 21 Apr 2020
-Working through the Bit Manipulation chapter of the CTCI book.
+- Working through the Bit Manipulation chapter of the CTCI book.
+- Solved the digital root problem on Codewars
 
 ## Day 53 - 20 Apr 2020
 Cracking the Coding Interview - studied chapter on Technical Questions - I didn't know what Bit Vectors were until now :( 
