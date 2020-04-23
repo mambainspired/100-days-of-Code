@@ -9,6 +9,7 @@ CTCI - Cracking the Coding Interview
 - Doing a YouTube tutorial on functional programming. Wrote JavaScript functions to understand filter, map and reduce. 
 - Understood the concept of Closures in JavaScript
 - Inheritance vs. Composition - Why composition is preferred in React
+- Solved a trivial problem on Codewars (countBits) but learned how to use the filter function in Java
 
 ## Day 54 - 21 Apr 2020
 - Working through the Bit Manipulation chapter of the CTCI book.
