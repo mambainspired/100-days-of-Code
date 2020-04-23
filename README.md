@@ -6,7 +6,7 @@ No work days = 9
 CTCI - Cracking the Coding Interview
 
 ## Day 55 - 22 Apr 2020
-- Doing a YouTube tutorial on functional programming. Write JavaScript functions to understand filter, map and reduce. 
+- Doing a YouTube tutorial on functional programming. Wrote JavaScript functions to understand filter, map and reduce. 
 - Understood the concept of Closures in JavaScript
 - Inheritance vs. Composition - Why composition is preferred in React
 
