@@ -5,6 +5,12 @@ No work days = 9
 
 CTCI - Cracking the Coding Interview
 
+## Day 58 - 25 Apr 2020
+Continuing HackerRank Java practice
+
+## Day 57 - 24 Apr 2020
+- CtCI
+
 ## Day 56 - 23 Apr 2020
 - CtCI book
 
