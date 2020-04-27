@@ -49,7 +49,7 @@ Worked on the React Bootcamp on Scrimba
 ## [NO WORK] Day 45- Day 47
 
 ## Day 36 - Day 44 (01 Apr - 08 Apr)
-I did it! I have been like the guy in the picture below. Breaking the pattern, I have earned my Freecodecamp Front-end Libraries Certrificate. 
+I did it! I have been like the guy in the picture below. Breaking the pattern, I have earned my Freecodecamp Front-end Libraries Certrificate. **Working as FE Developer is not very high on my cards but I made it a point to finish something I started but stopped with the finish line in sight**. 
 
 ![I Never Finish What I Star](https://img.memecdn.com/I-never-finish-what-I-star_o_27908.webp)
 
