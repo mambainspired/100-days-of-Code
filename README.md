@@ -1,9 +1,11 @@
 # 100-days-of-Code
 Keeping myself honest. Talk is cheap.
 
-No work days = 9
+No work days = 10
 
 CTCI - Cracking the Coding Interview
+
+## [NO WORK] Day 58 - 26 Apr 2020
 
 ## Day 58 - 25 Apr 2020
 Continuing HackerRank Java practice
