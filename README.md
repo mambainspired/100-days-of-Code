@@ -5,6 +5,9 @@ No work days = 10
 
 CTCI - Cracking the Coding Interview
 
+## Day 58 - 27 Apr 2020
+Working through the Algorithms course
+
 ## [NO WORK] Day 58 - 26 Apr 2020
 
 ## Day 58 - 25 Apr 2020
