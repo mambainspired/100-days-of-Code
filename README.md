@@ -5,6 +5,12 @@ No work days = 10
 
 CTCI - Cracking the Coding Interview
 
+## Day 61 - 29 Apr 2020
+Coursera algorithm course contd... 
+
+## Day 60 - 28 Apr 2020
+Bit Manipulations (CtCI)
+
 ## Day 59 - 27 Apr 2020
 Working through the Algorithms course
 
