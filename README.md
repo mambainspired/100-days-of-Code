@@ -3,7 +3,11 @@ Keeping myself honest. Talk is cheap.
 
 No work days = 10
 
-CTCI - Cracking the Coding Interview
+CtCI - Cracking the Coding Interview
+
+## Day 62 - 30 Apr 2020
+Really want to be comfortable with bit arithmetic. If it wasn't important, it wouldn't be a chapter on CtCI. 
+Found this great tutorial on Bit Arithmetic, https://daedtech.com/practical-programmer-math-bit-arithmetic/
 
 ## Day 61 - 29 Apr 2020
 Coursera algorithm course contd... 
