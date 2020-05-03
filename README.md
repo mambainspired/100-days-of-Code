@@ -1,9 +1,11 @@
 # 100-days-of-Code
 Keeping myself honest. Talk is cheap.
 
-No work days = 10
+No work days = 12
 
 CtCI - Cracking the Coding Interview
+
+## [NO WORK] Day 63 - 64 (01 May - 02 May) 
 
 ## Day 62 - 30 Apr 2020
 Really want to be comfortable with bit arithmetic. If it wasn't important, it wouldn't be a chapter on CtCI. 
