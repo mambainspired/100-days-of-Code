@@ -6,7 +6,7 @@ No work days = 12
 CtCI - Cracking the Coding Interview
 
 ## Day 65 - 69 (03 May - 07 May)
-I had to show some leadership at my day job and **learn** Power BI to guide an inexperienced BI developers create a very basic dashboard. 
+I had to show some leadership at my day job and **learn** PowerBI to guide an inexperienced BI developers create a very basic dashboard. My evenings were busy learning and teaching PowerBI at the same time. Why am I counting this towards my 100-days-of-code? I was not asked to do PowerBI but I learned it for the sake of learning and volunteered to help. 
 
 ## [NO WORK] Day 63 - 64 (01 May - 02 May) 
 
