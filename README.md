@@ -5,6 +5,9 @@ No work days = 12
 
 CtCI - Cracking the Coding Interview
 
+## Day 65 - 69 (03 May - 07 May)
+I had to show some leadership at my day job and **learn** Power BI to guide an inexperienced BI developers create a very basic dashboard. 
+
 ## [NO WORK] Day 63 - 64 (01 May - 02 May) 
 
 ## Day 62 - 30 Apr 2020
