@@ -1,9 +1,11 @@
 # 100-days-of-Code
 Keeping myself honest. Talk is cheap.
 
-No work days = 12
+No work days = 13
 
 CtCI - Cracking the Coding Interview
+
+## [NO WORK] Day 79 - 17 May 2020
 
 ## Day 70 - 78 (08 May - 16 May)
 - Java learning (https://www.youtube.com/channel/UC_fFL5jgoCOrwAVoM_fBYwA/playlists?view=50&sort=dd&shelf_id=4)
