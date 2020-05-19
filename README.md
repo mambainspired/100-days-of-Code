@@ -5,6 +5,9 @@ No work days = 13
 
 CtCI - Cracking the Coding Interview
 
+## Day 80 - 18 May 2020
+I am really enjoying Alex Lee's YouTube channel (Java tutorials). I went deep learning and using Interfaces and making sure I understand access modifiers (default, public, private, protected) really well. 
+
 ## [NO WORK] Day 79 - 17 May 2020
 
 ## Day 70 - 78 (08 May - 16 May)
