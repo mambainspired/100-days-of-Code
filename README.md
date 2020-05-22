@@ -5,6 +5,15 @@ No work days = 13
 
 CtCI - Cracking the Coding Interview
 
+## Day 83 - 21 May 2020
+Continued with Coursera Introduction to Algorithms course
+
+## Day 82 - 20 May 2020
+Continued with Coursera Introduction to Algorithms course
+
+## Day 81 - 19 May 2020
+Continued with Coursera Introduction to Algorithms course
+
 ## Day 80 - 18 May 2020
 I am really enjoying Alex Lee's YouTube channel (Java tutorials). I went deep learning and using Interfaces and making sure I understand access modifiers (default, public, private, protected) really well. 
 
