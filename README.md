@@ -5,6 +5,9 @@ No work days = 13
 
 CtCI - Cracking the Coding Interview
 
+## Day 84 - 91 (22 May - 29 May)
+I have without fail done Hacker Rank Java practice each day, about 2-4 exercies each day.
+
 ## Day 83 - 21 May 2020
 Continued with Coursera Introduction to Algorithms course
 
