@@ -1,9 +1,13 @@
 # 100-days-of-Code
 Keeping myself honest. Talk is cheap.
 
-No work days = 13
+No work days = 15
 
 CtCI - Cracking the Coding Interview
+
+## Day 94 - 95 (01 Jun - 02 Jun) - HackerRank Java Practice
+
+## [NO WORK] Day 92 - 93
 
 ## Day 84 - 91 (22 May - 29 May)
 I have without fail done Hacker Rank Java practice each day, about 2-4 exercies each day.
